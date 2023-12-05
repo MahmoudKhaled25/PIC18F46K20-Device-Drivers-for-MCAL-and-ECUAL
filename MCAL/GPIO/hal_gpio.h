@@ -9,7 +9,6 @@
 #define	HAL_GPIO_H
 
 /* Section: Includes */
-#include <pic18f4620.h>
 #include "../device_config.h"
 #include "../mcal_std_types.h"
 #include "hal_gpio_cfg.h"
@@ -18,6 +17,7 @@
 #define MASK_BIT 0x01
 #define PORT_MAX_NUM PORTE_INDEX
 #define PIN_MAX_NUM  PIN7
+
 
 // Configurations
 #define GPIO_PORT_PIN_CONFIGURATION CONFIG_ENABLE

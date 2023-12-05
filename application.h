@@ -9,18 +9,15 @@
 #define	APPLICATION_H
 
 /*Section: Includes*/
-#include "ECUAL/LED/ecu_led.h"
+#include "ECUAL/ecu_layer_init.h"
 
 /*Section: Macros*/
-#define PIN_APIS   0x00
-#define PORT_APIS  0x01
-#define DEBUGGING PORT_APIS
 
 /*Section: Function Like Macro Declarations*/
 
 /*Section: Data Types Declarations*/
 
 /*Section: Functions Declarations*/
-
+void app_init();
 #endif	/* APPLICATION_H */
 

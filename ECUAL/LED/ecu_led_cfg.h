@@ -1,19 +1,16 @@
 /* 
- * File:   device_config.h
+ * File:   ecu_led_cfg.h
  * Author: Blu-Ray
  *
- * Created on September 19, 2023, 9:57 PM
+ * Created on September 27, 2023, 5:49 AM
  */
 
-#ifndef DEVICE_CONFIG_H
-#define	DEVICE_CONFIG_H
+#ifndef ECU_LED_CFG_H
+#define	ECU_LED_CFG_H
 
 /*Section: Includes*/
-#include "compiler.h"
-
 
 /*Section: Macros*/
-#define _XTAL_FREQ 4000000
 
 /*Section: Function Like Macro Declarations*/
 
@@ -21,5 +18,6 @@
 
 /*Section: Functions Declarations*/
 
-#endif	/* DEVICE_CONFIG_H */
+
+#endif	/* ECU_LED_CFG_H */
 

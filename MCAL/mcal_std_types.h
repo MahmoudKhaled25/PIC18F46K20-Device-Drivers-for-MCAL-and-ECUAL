@@ -14,12 +14,6 @@
 
 /*Section: Macros*/
 
-// Operation successful
-#define E_OK      (Std_ReturnType)0x01
-
-// Operation not successful
-#define E_NOT_OK  (Std_ReturnType)0x00
-
 /*Section: Function Like Macro Declarations*/
 
 /*Section: Data Types Declarations*/
@@ -29,7 +23,11 @@ typedef unsigned short     uint16;
 typedef signed short       sint16;
 typedef unsigned long      uint32;
 typedef signed long        sint32;
-typedef uint8              Std_ReturnType;
+typedef enum
+{
+    E_NOT_OK,    // Operation not successful
+    E_OK         // Operation successful
+}Std_ReturnType;
 
 /*Section: Functions Declarations*/
 
